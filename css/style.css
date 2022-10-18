@@ -31,18 +31,26 @@
 
 .big-col {
   width: 65%;
-  background-color: #1e8ffe;
 }
 
 .small-col {
   width: 35%;
-  padding-top: 130px;
-  padding-left: 55px;
-  background-color: #febfca;
+  padding: 130px 30px 0;
 }
 
 .small-col h2 {
   margin-bottom: 30px;
+}
+
+.big-content {
+  text-align: center;
+}
+
+.big-content h2 {
+  margin-bottom: 20px;
+}
+.big-content p {
+  padding: 0 14%;
 }
 
 .bg-grey {
@@ -98,13 +106,13 @@ nav ul.main-menu li {
 }
 
 div.big-content {
-  background-color: #228a22;
-  height: 800px;
+  height: 600px;
   width: 100%;
 }
 
 footer {
   padding: 2rem;
+  margin-top: 4rem;
 }
 
 footer section.footer-top {
@@ -215,4 +223,19 @@ button {
 .violet__button {
   background-color: #8fa1e1;
   color: #fff;
+}
+
+/* DOWNLOAD SECTION */
+.download__section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download__section img {
+  width: 60%;
+}
+.download__section h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
