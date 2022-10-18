@@ -36,7 +36,13 @@
 
 .small-col {
   width: 35%;
+  padding-top: 130px;
+  padding-left: 55px;
   background-color: #febfca;
+}
+
+.small-col h2 {
+  margin-bottom: 30px;
 }
 
 .bg-grey {
