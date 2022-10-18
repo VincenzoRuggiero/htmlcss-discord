@@ -39,6 +39,7 @@
 }
 
 .small-col h2 {
+  font-size: 2rem;
   margin-bottom: 30px;
 }
 
@@ -47,6 +48,7 @@
 }
 
 .big-content h2 {
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 .big-content p {
@@ -116,26 +118,23 @@ footer {
 }
 
 footer section.footer-top {
-  height: 500px;
-  background-color: #7fffd4;
+  height: 180px;
 }
 
 footer section.footer-top aside {
   width: 30%;
   height: 100%;
-  background-color: #f08080;
 }
 
 footer section.footer-top nav {
   width: 70%;
   height: 100%;
-  background-color: #20b2aa;
 }
 
 footer .footer-top nav ul {
   width: 25%;
   height: 100%;
-  border: 2px dashed white;
+  list-style-type: none;
 }
 
 footer hr {
@@ -144,15 +143,7 @@ footer hr {
 
 footer section.footer-bottom {
   height: 100px;
-  background-color: #7fffd4;
   justify-content: space-between;
-}
-
-footer .footer-logo,
-footer .footer-button {
-  background-color: rgb(246, 136, 154);
-  padding: 0.5rem;
-  font-size: 1.25rem;
 }
 
 div#jumbotron {
@@ -169,7 +160,7 @@ div#jumbotron .jumbo-content {
   padding-top: 100px;
 }
 
-========== MIEI CSS ========== h1 {
+---- h1 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -238,4 +229,36 @@ button {
 .download__section h3 {
   font-size: 2rem;
   padding-bottom: 1rem;
+}
+
+aside h3 {
+  font-size: 1.7rem;
+  color: #90a2e1;
+  margin-bottom: 10px;
+}
+
+aside img {
+  height: 20px;
+}
+
+.language__selector {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.footer__menu h4 {
+  color: #90a2e1;
+}
+
+.footer__menu li {
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 2em;
+}
+
+.fa-brands {
+  color: #fff;
+  padding: 10px;
 }
